@@ -1,0 +1,13 @@
+@mixin center(){
+    text-center: center;
+}
+
+body{
+  @include center();
+  background-color: black;
+}
+
+.card{
+    @include center();
+}
+
