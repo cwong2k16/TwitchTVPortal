@@ -1,8 +1,26 @@
 body {
-  text-center: center;
+  text-align: center;
   background-color: black; }
 
 .card {
-  text-center: center; }
+  text-align: center;
+  background-color: #e0e0e0;
+  color: white;
+  font-size: 50px;
+  font-family: "Arial Black", sans serif;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 10px; }
+
+.under-card {
+  text-align: center;
+  background-color: #757575;
+  color: white;
+  font-size: 30px;
+  font-family: "Arial Black", sans serif;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 10px;
+  margin: inherit; }
 
 /*# sourceMappingURL=style.css.map */
