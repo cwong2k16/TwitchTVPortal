@@ -4,8 +4,8 @@ $font-family: "Arial Black", sans serif;
     color: $color;
 }
 
-@mixin center(){
-    text-align: center;
+@mixin position($pos){
+    text-align: $pos;
 }
 
 @mixin border-radius($radius){
@@ -13,13 +13,13 @@ $font-family: "Arial Black", sans serif;
 }
 
 body{
-  @include center();
+  @include position(center);
   background-color: black;
 }
 
 @mixin card-properties($bgc, $color, $font-size){
   width: 50%;
-  @include center();
+  @include position(center);
   background-color: $bgc;
   color: $color;
   font-size: $font-size;
@@ -34,8 +34,8 @@ body{
 }
 
 .under-card{
-    @include center();
     @include card-properties(#f8bbd0, white, 20px);
+    @include position(left);
     @include border-radius(10px);
 //    margin: inherit;
 }

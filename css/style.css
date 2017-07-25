@@ -14,7 +14,6 @@ body {
   border-radius: 10px; }
 
 .under-card {
-  text-align: center;
   width: 50%;
   text-align: center;
   background-color: #f8bbd0;
@@ -23,6 +22,7 @@ body {
   font-family: "Arial Black", sans serif;
   margin: auto;
   margin-top: 50px;
+  text-align: left;
   border-radius: 10px; }
 
 .green {
