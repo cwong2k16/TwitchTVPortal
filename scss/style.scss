@@ -37,7 +37,6 @@ body{
     @include card-properties(#f8bbd0, white, 20px);
     @include position(left);
     @include border-radius(10px);
-//    margin: inherit;
 }
 
 .green{
