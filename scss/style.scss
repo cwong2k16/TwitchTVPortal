@@ -47,3 +47,20 @@ body{
 .red{
     @include color(red);
 }
+
+.button{
+    @include color(white);
+    @include position(center);
+    &.online{
+        background-color: #76ff03;
+        width: 10%;
+    }
+    &.offline{
+        background-color: red;
+        width: 10%;
+    }
+    &.all{
+        background-color: #2196f3;
+        width: 10%;
+    }
+}

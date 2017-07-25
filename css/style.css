@@ -31,4 +31,17 @@ body {
 .red {
   color: red; }
 
+.button {
+  color: white;
+  text-align: center; }
+  .button.online {
+    background-color: #76ff03;
+    width: 10%; }
+  .button.offline {
+    background-color: red;
+    width: 10%; }
+  .button.all {
+    background-color: #2196f3;
+    width: 10%; }
+
 /*# sourceMappingURL=style.css.map */
